@@ -2,8 +2,9 @@
 title: Benvenuto in "Merlin's garden"! il mio giardino digitale - Welcome to "Merlin's garden"! My digital garden
 ---
 
-> *"[...] Noi siamo infatti nati per darci aiuto reciproco, come i piedi, le mani, le palpebre, come le due file di denti. Ecco perché è cosa contro natura agire l`uno contro l`altro; e irritarsi contro qualcuno e detestarlo è proprio di persone tra loro nemiche."*
+> *"[...] Noi siamo infatti nati per darci aiuto reciproco, come i piedi, le mani, le palpebre, come le due file di denti. Ecco perché è cosa contro natura agire l'uno contro l'altro; e irritarsi contro qualcuno e detestarlo è proprio di persone tra loro nemiche." ~Marco Aurelio*
 
+![[statua-Marco_Aurelio.jpg|300]]
 
 Questo spazio è un **giardino digitale**: un archivio pubblico di appunti, modelli mentali e connessioni interdisciplinari in continua evoluzione. A differenza di un blog tradizionale, le note qui non sono ordinate per data, ma collegate tra loro per affinità concettuale. Molti testi sono bozze aperte, altri sono sintesi più strutturate.
 
@@ -28,8 +29,9 @@ nota: I link interni (evidenziati tra parentesi o sottolineati) ti permettono di
 *Curato da: Merlino. Se trovi un collegamento rotto o hai una riflessione da aggiungere, scrivimi pure.*
 
 
-> *"[...] For we were born for mutual help, like the feet, the hands, the eyelids, like the two rows of teeth. That is why acting against one another is contrary to nature; and to be angry with someone and detest them is typical of those who are enemies to each other."*
+> *"[...] For we were born for mutual help, like the feet, the hands, the eyelids, like the two rows of teeth. That is why acting against one another is contrary to nature; and to be angry with someone and detest them is typical of those who are enemies to each other." ~Marco Aurelio*
 
+![[statua-Marco_Aurelio.jpg|300]]
 
 This space is a **digital garden**: a public repository of notes, mental models, and cross-disciplinary connections in constant evolution. Unlike a traditional blog, the notes here are not sorted by date, but linked together by conceptual affinity. Many entries are open drafts; others are more structured syntheses.
 
