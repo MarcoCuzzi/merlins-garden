@@ -12,7 +12,7 @@ Questo spazio è un **giardino digitale**: un archivio pubblico di appunti, mode
 
 ## 🧭 Qui trovi un indice delle principali note e progetti
 
-Puoi iniziare a esplorare partendo da alcuni dei nodi principali:
+Puoi iniziare a esplorare partendo da alcuni dei nodi principali: <span class="spinner"></span>
 
 - 
 
@@ -37,7 +37,7 @@ This space is a **digital garden**: a public repository of notes, mental models,
 
 ##🧭 An index of key notes and projects
 
-You can start exploring from some of the core nodes:
+You can start exploring from some of the core nodes: <span class="spinner"></span>
 
 ##🌱 How to navigate this space
 
