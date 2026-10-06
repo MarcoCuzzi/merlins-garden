@@ -14,7 +14,7 @@ Questo spazio è un **giardino digitale**: un archivio pubblico di appunti, mode
 
 Puoi iniziare a esplorare partendo da alcuni dei nodi principali: <span class="spinner"></span>
 
-- 
+- ![[ascii-art/fiore]]
 
 ---
 
