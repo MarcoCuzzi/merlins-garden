@@ -1,6 +1,8 @@
 # yaml-language-server: $schema=./quartz/plugins/quartz-plugins.schema.json
 configuration:
-  pageTitle: Quartz 5
+  pageTitle: ╔══════════════════════════════════╗
+║        ✦ MERLIN'S GARDEN 🌱       ║
+╚══════════════════════════════════╝
   pageTitleSuffix: ""
   enableSPA: true
   enablePopovers: true
