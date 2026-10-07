@@ -93,7 +93,8 @@ export default (() => {
         <link rel="icon" href={iconPath} />
         <meta name="description" content={description} />
         <meta name="generator" content="Quartz" />
-		<script dangerouslySetInnerHTML={{ __html: asciiAnimScript }} /> // per animazioni ASCII
+		{/* per animazioni ASCII */}
+		<script dangerouslySetInnerHTML={{ __html: asciiAnimScript }} />
 
         {css.map((resource) => CSSResourceToStyleElement(resource, true))}
         {js

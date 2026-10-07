@@ -1,4 +1,5 @@
 ```text
+animation
 fps: 4
 <frame>
   _
