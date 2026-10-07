@@ -1,11 +1,5 @@
-import { loadQuartzConfig, loadQuartzLayout } from "./quartz/plugins/loader/config-loader"
-import { AsciiAnim } from "./quartz/components" // Aggiunto per le animazioni ASCII
+  import { loadQuartzConfig, loadQuartzLayout } from "./quartz/plugins/loader/config-loader"
 
-const config = await loadQuartzConfig()
-export default config
-
-export const layout = await loadQuartzLayout({
-  defaults: {                                 // Aggiunto per le animazioni ASCII
-    afterBody: [AsciiAnim()],
-  },
-})
+  const config = await loadQuartzConfig()
+  export default config
+  export const layout = await loadQuartzLayout()
