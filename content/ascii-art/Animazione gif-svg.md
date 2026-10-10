@@ -1,0 +1,2 @@
+**GIF o SVG animata come immagine (zero codice)**  
+Registri o crei l'animazione fuori dal sito, metti il file nella cartella del giardino e lo inserisci in una nota con `![](animazione.gif)`. È velocissimo, ma non è testo vero: non si adatta al tema chiaro/scuro, pesa di più e non si modifica facilmente.

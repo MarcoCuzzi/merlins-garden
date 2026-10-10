@@ -14,7 +14,11 @@ Questo spazio è un **giardino digitale**: un archivio pubblico di appunti, mode
 
 Puoi iniziare a esplorare partendo da alcuni dei nodi principali: <span class="spinner"></span>
 
-- ![[ascii-art/fiore]]
+- ![[ascii-art/drawings/fiore]]
+
+- ![[ascii-art/drawings/fiore2]]
+
+- [[giardino/Giardino]]
 
 ---
 
@@ -35,11 +39,11 @@ nota: I link interni (evidenziati tra parentesi o sottolineati) ti permettono di
 
 This space is a **digital garden**: a public repository of notes, mental models, and cross-disciplinary connections in constant evolution. Unlike a traditional blog, the notes here are not sorted by date, but linked together by conceptual affinity. Many entries are open drafts; others are more structured syntheses.
 
-##🧭 An index of key notes and projects
+## 🧭 An index of key notes and projects
 
 You can start exploring from some of the core nodes: <span class="spinner"></span>
 
-##🌱 How to navigate this space
+## 🌱 How to navigate this space
 
 Many notes here are only rough drafts. I will try to cultivate my garden in both English and Italian, and feedback is always welcome.
 

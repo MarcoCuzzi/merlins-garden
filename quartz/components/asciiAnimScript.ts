@@ -35,10 +35,18 @@ if (!window.__asciiAnimLoaded) {
       if (!Number.isFinite(fps)) fps = FPS_DEFAULT
       fps = Math.min(FPS_MAX, Math.max(FPS_MIN, fps))
 
+      // bare: yes -> mostra solo il disegno, senza titolo, link e riquadro
+      const bare = ["yes", "true", "si"].includes((settings.bare || "").toLowerCase())
+
       const out = document.createElement("pre")
-      out.className = "ascii-anim"
+      out.className = bare ? "ascii-anim bare" : "ascii-anim"
       out.textContent = frames[0]
-      code.closest("pre").replaceWith(out)
+
+      // In modalità bare sostituisce tutto il contenitore della transclusione
+      const target = bare
+        ? (code.closest(".transclude") || code.closest("pre"))
+        : code.closest("pre")
+      target.replaceWith(out)
 
       // Se l'utente preferisce meno movimento: resta il primo frame, fermo
       if (reduceMotion || frames.length < 2) return
