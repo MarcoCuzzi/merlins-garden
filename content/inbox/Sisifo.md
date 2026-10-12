@@ -1,4 +1,4 @@
-![Copertina Sisifo - immagine non caricata| 400](https://pub-b896382b01a148f6a027a39cf5269f7c.r2.dev/Sisifo.webp)
+![Copertina Sisifo - immagine non caricata|400](https://pub-b896382b01a148f6a027a39cf5269f7c.r2.dev/Sisifo.webp)
 
 # Il mito si sisifo
 Il mito di Sisifo affonda le sue radici nella mitologia greca (attestato già nell'XI libro dell'Odissea di Omero), ma trova la sua reinterpretazione più celebre e profonda nel saggio filosofico di Albert Camus, Il mito di Sisifo (Le Mythe de Sisyphe, 1942).
