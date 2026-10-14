@@ -2,7 +2,7 @@
 <img src="https://pub-b896382b01a148f6a027a39cf5269f7c.r2.dev/Sisifo1.webp" alt="Immagine Sisifo" width="50%">
 
 
-# Il mito si sisifo
+# Il mito di sisifo
 Il mito di Sisifo affonda le sue radici nella mitologia greca (attestato già nell'XI libro dell'Odissea di Omero), ma trova la sua reinterpretazione più celebre e profonda nel saggio filosofico di Albert Camus, Il mito di Sisifo (Le Mythe de Sisyphe, 1942).
 1. Il mito classico: l'astuzia e la condanna eterna
 Sisifo, re e fondatore di Corinto, è descritto dalla tradizione mitologica come il più astuto tra i mortali. La sua colpa non è una semplice empia trasgressione, ma una serie di atti di sfida diretta all'ordine divino:
