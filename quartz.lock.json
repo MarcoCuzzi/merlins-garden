@@ -1,0 +1,11 @@
+{
+  "version": "1.0.0",
+  "plugins": {
+    "quartz-ascii-anim": {
+      "source": "github:MarcoCuzzi/quartz-ascii-anim",
+      "resolved": "https://github.com/MarcoCuzzi/quartz-ascii-anim.git",
+      "commit": "43ab9728860d5fcc409c03f567990281ade8793e",
+      "installedAt": "2026-10-14T18:44:26.895Z"
+    }
+  }
+}

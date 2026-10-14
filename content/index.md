@@ -50,3 +50,7 @@ Many notes here are only rough drafts. I will try to cultivate my garden in both
 Note: Internal links (highlighted in brackets or underlined) allow you to jump from one topic to another by following your own train of thought. You can also use the interactive **Graph view** in the sidebar to see visually how themes connect and converse with each other.
 
 *Tended by: Merlin. If you come across a broken link or have a thought to share, feel free to reach out.*
+
+
+
+![[ascii-art/drawings/hatsune_6-7]]

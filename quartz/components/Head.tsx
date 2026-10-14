@@ -4,7 +4,6 @@ import { CSSResourceToStyleElement, JSResourceToScriptElement } from "../util/re
 import { googleFontHref, googleFontSubsetHref } from "../util/theme"
 import { QuartzComponent, QuartzComponentConstructor, QuartzComponentProps } from "./types"
 import { unescapeHTML } from "../util/escape"
-import asciiAnimScript from "./asciiAnimScript" // Per animazioni ASCII
 
 export default (() => {
   const Head: QuartzComponent = ({
@@ -93,9 +92,7 @@ export default (() => {
         <link rel="icon" href={iconPath} />
         <meta name="description" content={description} />
         <meta name="generator" content="Quartz" />
-		{/* per animazioni ASCII */}
-		<script dangerouslySetInnerHTML={{ __html: asciiAnimScript }} />
-
+		
         {css.map((resource) => CSSResourceToStyleElement(resource, true))}
         {js
           .filter((resource) => resource.loadTime === "beforeDOMReady")

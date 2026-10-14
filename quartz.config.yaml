@@ -1,6 +1,6 @@
 # yaml-language-server: $schema=./quartz/plugins/quartz-plugins.schema.json
 configuration:
-  pageTitle: ✦ MERLIN'S GARDEN 🌱 
+  pageTitle: ✦ MERLIN'S GARDEN 🌱
   pageTitleSuffix: ""
   enableSPA: true
   enablePopovers: true
@@ -256,6 +256,14 @@ plugins:
       position: beforeBody
       priority: 15
       display: all
+  - source: github:MarcoCuzzi/quartz-ascii-anim
+    enabled: true
+    options:
+      fpsMin: 1
+      fpsMax: 30
+      fpsDefault: 4
+      maxFrames: 100
+    order: 50
 layout:
   groups:
     toolbar:
