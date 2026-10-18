@@ -50,35 +50,49 @@ body[data-slug="index"] .article-title {
 @media (max-width: 800px) and (orientation: portrait) {
   body[data-slug="index"] .article-title {
     height: 260px;
-    background-size: auto, auto, auto 120%;  // ingrandisce solo l'immagine, per dare margine verticale
+    background-size: auto, auto, auto 100%;
     animation:
-      copertina-pan-x 37s ease-in-out infinite,
-      copertina-pan-y 23s ease-in-out infinite;
+      copertina-pan-x 41s cubic-bezier(0.45, 0.05, 0.55, 0.95) infinite,
+      copertina-pan-y 23s cubic-bezier(0.45, 0.05, 0.55, 0.95) infinite,
+      copertina-zoom  31s cubic-bezier(0.45, 0.05, 0.55, 0.95) infinite;
   }
 }
 
-// movimento orizzontale: soste, ripensamenti, scatti lenti e veloci
+// orizzontale: tocca entrambi i bordi, con soste e piccoli ripensamenti
 @keyframes copertina-pan-x {
-  0%   { background-position-x: 0, 0, 8%; }
-  14%  { background-position-x: 0, 0, 38%; }
-  22%  { background-position-x: 0, 0, 31%; }   // piccolo ripensamento
-  45%  { background-position-x: 0, 0, 85%; }
-  53%  { background-position-x: 0, 0, 100%; }
-  64%  { background-position-x: 0, 0, 93%; }   // altro ripensamento
-  82%  { background-position-x: 0, 0, 45%; }
-  100% { background-position-x: 0, 0, 8%; }
+  0%   { background-position-x: 0, 0, 0%; }     // bordo sinistro
+  12%  { background-position-x: 0, 0, 22%; }
+  20%  { background-position-x: 0, 0, 18%; }    // ripensamento
+  38%  { background-position-x: 0, 0, 62%; }
+  46%  { background-position-x: 0, 0, 70%; }
+  52%  { background-position-x: 0, 0, 66%; }    // ripensamento
+  70%  { background-position-x: 0, 0, 100%; }   // bordo destro
+  78%  { background-position-x: 0, 0, 96%; }
+  90%  { background-position-x: 0, 0, 40%; }
+  100% { background-position-x: 0, 0, 0%; }
 }
 
-// oscillazione verticale più lenta, come un respiro
+// verticale: dolce, serve solo quando lo zoom lascia margine
 @keyframes copertina-pan-y {
-  0%   { background-position-y: 0, 0, 30%; }
-  33%  { background-position-y: 0, 0, 62%; }
-  71%  { background-position-y: 0, 0, 12%; }
-  100% { background-position-y: 0, 0, 30%; }
+  0%   { background-position-y: 0, 0, 40%; }
+  35%  { background-position-y: 0, 0, 90%; }
+  70%  { background-position-y: 0, 0, 10%; }
+  100% { background-position-y: 0, 0, 40%; }
+}
+
+// zoom: parte da immagine intera in altezza, si avvicina e torna indietro
+@keyframes copertina-zoom {
+  0%   { background-size: auto, auto, auto 100%; }
+  30%  { background-size: auto, auto, auto 112%; }
+  55%  { background-size: auto, auto, auto 124%; }
+  80%  { background-size: auto, auto, auto 106%; }
+  100% { background-size: auto, auto, auto 100%; }
 }
 
 @media (prefers-reduced-motion: reduce) {
   body[data-slug="index"] .article-title {
     animation: none;
+    background-size: auto, auto, cover;
+    background-position: 0 0, 0 0, center 35%;
   }
 }
