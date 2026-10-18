@@ -47,3 +47,21 @@ body[data-slug="index"] .article-title {
     height: 200px;
   }
 }
+@media (max-width: 800px) and (orientation: portrait) {
+  body[data-slug="index"] .article-title {
+    height: 260px;
+    animation: copertina-pan 24s ease-in-out infinite alternate;
+  }
+}
+
+@keyframes copertina-pan {
+  from { background-position: 0 0, 0 0, 0% 35%; }
+  to   { background-position: 0 0, 0 0, 100% 35%; }
+}
+
+// chi ha attivato "riduci movimento" non vede l'animazione
+@media (prefers-reduced-motion: reduce) {
+  body[data-slug="index"] .article-title {
+    animation: none;
+  }
+}
