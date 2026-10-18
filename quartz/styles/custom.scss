@@ -20,14 +20,15 @@ body[data-slug="index"] .article-title {
   align-items: center;        // titolo centrato in verticale
   justify-content: center;    // e in orizzontale
   text-align: center;
-  height: 280px;              // altezza del banner
+  aspect-ratio: 3 / 1;        // stesso rapporto dell'immagine (2172 x 724): nessun bordo tagliato
+  height: auto;
   margin: 0 0 1.5rem;
   padding: 1rem 1.5rem;
   border-radius: 8px;
   color: #fff;
   font-size: clamp(1.6rem, 4vw, 2.6rem);
   line-height: 1.15;
-    text-shadow:
+  text-shadow:
     0 0 12px rgba(0, 0, 0, 0.9),
     0 0 30px rgba(0, 0, 0, 0.7),
     0 2px 4px rgba(0, 0, 0, 0.6);
@@ -39,16 +40,13 @@ body[data-slug="index"] .article-title {
       rgba(0, 0, 0, 0) 100%
     ),
     linear-gradient(rgba(0, 0, 0, 0.08), rgba(0, 0, 0, 0.08)),
-    url("./images/utils/copertina.webp") center 35% / cover no-repeat;
+    url("./images/utils/copertina.webp") center / cover no-repeat;
 }
 
-@media (max-width: 800px) {
-  body[data-slug="index"] .article-title {
-    height: 200px;
-  }
-}
+// Telefono in verticale: banner più alto con panoramica animata
 @media (max-width: 800px) and (orientation: portrait) {
   body[data-slug="index"] .article-title {
+    aspect-ratio: auto;
     height: 260px;
     background-size: auto, auto, auto 100%;
     animation:
@@ -89,6 +87,7 @@ body[data-slug="index"] .article-title {
   100% { background-size: auto, auto, auto 100%; }
 }
 
+// chi ha attivato "riduci movimento" non vede l'animazione
 @media (prefers-reduced-motion: reduce) {
   body[data-slug="index"] .article-title {
     animation: none;
