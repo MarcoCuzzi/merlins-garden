@@ -50,16 +50,33 @@ body[data-slug="index"] .article-title {
 @media (max-width: 800px) and (orientation: portrait) {
   body[data-slug="index"] .article-title {
     height: 260px;
-    animation: copertina-pan 24s ease-in-out infinite alternate;
+    background-size: auto, auto, auto 120%;  // ingrandisce solo l'immagine, per dare margine verticale
+    animation:
+      copertina-pan-x 37s ease-in-out infinite,
+      copertina-pan-y 23s ease-in-out infinite;
   }
 }
 
-@keyframes copertina-pan {
-  from { background-position: 0 0, 0 0, 0% 35%; }
-  to   { background-position: 0 0, 0 0, 100% 35%; }
+// movimento orizzontale: soste, ripensamenti, scatti lenti e veloci
+@keyframes copertina-pan-x {
+  0%   { background-position-x: 0, 0, 8%; }
+  14%  { background-position-x: 0, 0, 38%; }
+  22%  { background-position-x: 0, 0, 31%; }   // piccolo ripensamento
+  45%  { background-position-x: 0, 0, 85%; }
+  53%  { background-position-x: 0, 0, 100%; }
+  64%  { background-position-x: 0, 0, 93%; }   // altro ripensamento
+  82%  { background-position-x: 0, 0, 45%; }
+  100% { background-position-x: 0, 0, 8%; }
 }
 
-// chi ha attivato "riduci movimento" non vede l'animazione
+// oscillazione verticale più lenta, come un respiro
+@keyframes copertina-pan-y {
+  0%   { background-position-y: 0, 0, 30%; }
+  33%  { background-position-y: 0, 0, 62%; }
+  71%  { background-position-y: 0, 0, 12%; }
+  100% { background-position-y: 0, 0, 30%; }
+}
+
 @media (prefers-reduced-motion: reduce) {
   body[data-slug="index"] .article-title {
     animation: none;
