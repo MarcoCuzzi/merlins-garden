@@ -13,3 +13,37 @@
   50% { content: "-"; }
   75% { content: "\\"; }
 }
+
+// Hero: la pagina "index" ha il titolo sopra l'immagine di copertina
+body[data-slug="index"] .article-title {
+  display: flex;
+  align-items: center;        // titolo centrato in verticale
+  justify-content: center;    // e in orizzontale
+  text-align: center;
+  height: 280px;              // altezza del banner
+  margin: 0 0 1.5rem;
+  padding: 1rem 1.5rem;
+  border-radius: 8px;
+  color: #fff;
+  font-size: clamp(1.6rem, 4vw, 2.6rem);
+  line-height: 1.15;
+    text-shadow:
+    0 0 12px rgba(0, 0, 0, 0.9),
+    0 0 30px rgba(0, 0, 0, 0.7),
+    0 2px 4px rgba(0, 0, 0, 0.6);
+  background:
+    radial-gradient(
+      ellipse 55% 65% at center,
+      rgba(0, 0, 0, 0.55) 0%,
+      rgba(0, 0, 0, 0.3) 45%,
+      rgba(0, 0, 0, 0) 100%
+    ),
+    linear-gradient(rgba(0, 0, 0, 0.08), rgba(0, 0, 0, 0.08)),
+    url("./images/utils/Copertina.webp") center 35% / cover no-repeat;
+}
+
+@media (max-width: 800px) {
+  body[data-slug="index"] .article-title {
+    height: 200px;
+  }
+}

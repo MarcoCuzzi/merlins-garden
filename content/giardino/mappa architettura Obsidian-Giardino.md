@@ -1,206 +1,105 @@
-```mermaid
-flowchart TD
-    A["OBSIDIAN<br><small>tutto ciò che pensi / raccogli</small>"]
-    B["QUARTZ<br><small>conoscenza elaborata</small>"]
-    
-    A -->|selezione| B
-    
-    B --> C[Concepts]
-    B --> D[Essays]
-    B --> E[Maps]
-    
-    C --> F[🔗 BACKLINKS]
-    D --> F
-    E --> F
-    
-    F --> G[RETE DI CONOSCENZA]
-```
----
-
-# Esempio concreto
-
-Mettiamo che in Obsidian tu abbia:
-
-```
-Università/
-    matematica/
-        proposizioni.md
-        insiemi.md
-        relazioni.md
-
-Informatica/
-    programmazione/
-        javascript.md
-        architettura-software.md
-
-Idee/
-    AI.md
-    second-brain.md
-    digital-garden.md
-```
+Ecco una mappa architetturale chiara, sia concettuale che visiva, che rappresenta l'ecosistema del tuo **Digital Garden** su **Quartz v5**, la separazione con il tuo **Secondo Cervello privato (metodo P.A.R.A.)** e l'esperienza di navigazione orientata al **flusso di pensiero**.
 
 ---
 
-Non devi necessariamente copiare tutta questa struttura.
+### 🗺️ Mappa Concettuale dell'Architettura
 
-Nel Garden potresti avere:
+<div style="display: flex; flex-direction: column; gap: 12px; max-width: 650px; margin: 1.5rem auto; font-family: inherit;">
 
-```
-content/
-│
-├── index.md
-│
-├── concepts/
-│   ├── proposizioni.md
-│   ├── insiemi.md
-│   ├── relazioni.md
-│   ├── architettura-software.md
-│   └── digital-garden.md
-│
-├── projects/
-│   └── token-saver-studio.md
-│
-├── essays/
-│   └── come-costruire-un-second-brain.md
-│
-└── maps/
-    ├── matematica.md
-    ├── informatica.md
-    └── intelligenza-artificiale.md
-```
+  <!-- Blocco 1: Obsidian Privato -->
+  <div style="border: 1px solid var(--lightgray); border-radius: 8px; padding: 12px 16px; background: var(--light);">
+    <strong style="color: var(--secondary);">🧠 OBSIDIAN (Ambiente Privato)</strong>
+    <p style="margin: 4px 0 8px 0; font-size: 0.9em; opacity: 0.85;">Secondo Cervello Personale — Metodo P.A.R.A.</p>
+    <ul style="margin: 0; padding-left: 20px; font-size: 0.9em; line-height: 1.5;">
+      <li><code>01_Projects</code> — Obiettivi attivi e scadenze immediate</li>
+      <li><code>02_Areas</code> — Aree di responsabilità continua</li>
+      <li><code>03_Resources</code> — Materiale di studio, bozze e appunti</li>
+      <li><code>04_Archive</code> — Progetti completati e note archiviate</li>
+    </ul>
+  </div>
 
+  <div style="text-align: center; color: var(--gray); font-size: 0.85em;">
+    ⇣ <em>Filtro editoriale: copia manuale solo delle note mature</em> ⇣
+  </div>
+
+  <!-- Blocco 2: Giardino Digitale -->
+  <div style="border: 1px solid var(--lightgray); border-radius: 8px; padding: 12px 16px; background: var(--light);">
+    <strong style="color: var(--secondary);">🌱 IL TUO GIARDINO DIGITALE (content/)</strong>
+    <p style="margin: 4px 0 8px 0; font-size: 0.9em; opacity: 0.85;">Cartelle per rilevanza di visualizzazione:</p>
+    <ul style="margin: 0; padding-left: 20px; font-size: 0.9em; line-height: 1.5;">
+      <li><code>vetrina/</code> — Contenuti e note in primo piano</li>
+      <li><code>concetti/</code> — Idee sviluppate e approfondimenti</li>
+      <li><code>libri/</code> & <code>film/</code> — Collezioni e recensioni media</li>
+      <li><code>componenti/</code> — Animazioni dedicate (es. <code>fiore.md</code>)</li>
+    </ul>
+  </div>
+
+  <div style="text-align: center; color: var(--gray); font-size: 0.85em;">
+    ⇣ <em>Compilazione statica via motore Quartz</em> ⇣
+  </div>
+
+  <!-- Blocco 3: Quartz v5 -->
+  <div style="border: 1px solid var(--lightgray); border-radius: 8px; padding: 12px 16px; background: var(--light);">
+    <strong style="color: var(--secondary);">⚙️ MOTORE QUARTZ V5</strong>
+    <ul style="margin: 8px 0 0 0; padding-left: 20px; font-size: 0.9em; line-height: 1.5;">
+      <li><strong>Core Transformers:</strong> OFM, CrawlLinks, Popover Previews, Graph View</li>
+      <li><strong>Plugin Custom:</strong> <code>AsciiAnimation</code> (parsing fotogrammi ed esecuzione animata su router SPA)</li>
+    </ul>
+  </div>
+
+  <div style="text-align: center; color: var(--gray); font-size: 0.85em;">
+    ⇣ <code>npx quartz sync</code> ⇣
+  </div>
+
+  <!-- Blocco 4: Web / Navigazione -->
+  <div style="border: 2px solid var(--secondary); border-radius: 8px; padding: 12px 16px; background: var(--light);">
+    <strong style="color: var(--secondary);">🌐 ESPERIENZA VISITATORE (Flusso di Pensiero)</strong>
+    <p style="margin: 6px 0; font-size: 0.9em;"><strong>❌ Non navigazione tassonomica rigida a cartelle</strong></p>
+    <p style="margin: 0 0 6px 0; font-size: 0.9em;"><strong>✅ Esplorazione organica per connessioni:</strong></p>
+    <ul style="margin: 0; padding-left: 20px; font-size: 0.9em; line-height: 1.5;">
+      <li>Rimandi interni tramite <code>[[Wikilinks]]</code></li>
+      <li>Anteprime fluttuanti via Popover e Backlinks</li>
+      <li>Navigazione visiva tramite Graph View</li>
+      <li>Transclusioni con animazioni ASCII integrate</li>
+    </ul>
+  </div>
+
+</div>
 ---
 
-E qui arriva la parte interessante.
+### 🔍 Dettaglio delle Componenti Chiave
 
-Una nota non dovrebbe dire semplicemente:
+#### 1. La Separazione: Secondo Cervello (P.A.R.A.) vs Digital Garden
 
-```
-# Insiemi
-
-Gli insiemi sono...
-```
-
-Potrebbe diventare:
-
-```
-# Insiemi
-
-Un insieme è...
-
-## Collegamenti
-
-- [[Proposizioni]]
-- [[Relazioni]]
-- [[Logica]]
-- [[Matematica discreta]]
-```
-
-A quel punto **la struttura del Garden emerge dai collegamenti**, non dalle cartelle.
+* **Secondo Cervello (P.A.R.A. di Tiago Forte):** È il tuo ambiente privato di produttività e lavoro sporco. È orientato all'azione (Projects), alla manutenzione (Areas) e all'archiviazione personale (Resources/Archive). Rimane separato per proteggere le tue note private e darti massima libertà di stesura.
 
 
----
+* **Digital Garden:** È la destinazione finale. Raccoglie solo i concetti pronti per essere "coltivati" pubblicamente, fungendo da archivio dinamico della tua conoscenza.
 
 
-# E le "Maps"?
 
-Questa secondo me è una cosa che ti potrebbe piacere parecchio.
+#### 2. La Struttura a Cartelle: Organizzata per Rilevanza
 
-Una mappa non è una categoria.
-
-È una **pagina che organizza un pezzo della tua conoscenza**.
-
-Per esempio:
-
-```
-Matematica
-│
-├── Logica
-│   ├── Proposizioni
-│   ├── Connettivi logici
-│   └── Dimostrazioni
-│
-├── Insiemi
-│   ├── Unione
-│   ├── Intersezione
-│   └── Relazioni
-│
-└── Algebra
-```
-
-La pagina `matematica.md` potrebbe essere semplicemente una specie di **indice ragionato**.
-
-E i link portano alle note.
-
-Questa è una differenza enorme rispetto a:
-
-```
-Matematica/
-    Logica/
-        ...
-```
-
-Nel secondo caso hai una **gerarchia**.
-
-Nel primo hai una **rete**.
-
-Ed è proprio quest'ultima che rende interessante un Digital Garden.
-
----
-# Quindi: niente automatismi?
-
-Per **il tuo caso, inizialmente direi di no**.
-
-Anzi, ti sconsiglio di costruirli subito.
-
-La tua pipeline può essere brutalmente semplice:
-
-```
-OBSIDIAN
-
-        ↓
-
-"Questa idea vale davvero?"
-
-        ↓ sì
-
-"C'è qualcosa che posso aggiungere?"
-
-        ↓
-
-"C'è una connessione con qualcos'altro?"
-
-        ↓
-
-COPIA
-
-        ↓
-
-QUARTZ
-```
-
-È quasi un processo editoriale.
-
-E questo ti obbliga a fare una cosa molto utile: **selezionare**.
-
-Se importassi automaticamente 2.000 note da Obsidian, avresti semplicemente creato **un altro archivio**.
-
-Se invece nel Garden metti 100 note che rappresentano le cose che hai davvero capito, hai creato una **mappa della tua conoscenza**.
+* A differenza di P.A.R.A., nel giardino la struttura delle cartelle in `content/` risponde solo alla **rilevanza editoriale** (dare visibilità alle cose più importanti, ai progetti visivi o alle collezioni che vuoi mettere in primo piano).
 
 
----
-## Una regola che userei
+* La cartella è un contenitore logico, non un limite rigido imposto al lettore.
 
-Per ogni nota che vuoi portare da Obsidian a Quartz, chiediti:
+#### 3. Il Motore Quartz v5 e il Tuo Plugin Animazioni
 
-> **"Se tra tre anni riaprissi questa pagina, troverei qualcosa che vale ancora la pena leggere?"**
+* **Animazioni ASCII Personalizzate:** Tramite il componente dedicato (`AsciiAnimation.tsx` + script `.inline.ts`), Quartz intercetta i tuoi blocchi (ad esempio richiamati tramite transclusioni `![[fiore.md]]`) e ne anima i singoli fotogrammi a un dato framerate.
 
-Se sì → Garden.
 
-Se no → rimane in Obsidian.
+* **Integrazione SPA:** Lo script è agganciato all'evento `nav` del router SPA di Quartz, così l'animazione non si interrompe quando il lettore passa da una pagina all'altra.
 
-E aggiungerei una seconda domanda ancora più importante:
 
-> **"Questa nota può collegarsi ad almeno un'altra idea?"**
 
-Se la risposta è sì, il Garden comincia a diventare interessante.
+#### 4. La Navigazione: Flusso di Pensiero vs Cartelle
+
+* **Percorso libero:** Il sito non va esplorato aprendo forzatamente l'albero delle cartelle.
+
+
+* **Hyperlink e Connessioni:** Il visitatore salta da un concetto all'altro tramite i **wikilink** (`[[...]]`), visualizza le connessioni inverse con i **backlinks** e consulta la **Graph View**.
+
+
+* **Esperienza organica:** Ogni lettore esplora il giardino seguendo il proprio filo logico o curiosità, lasciandosi guidare dalla densità dei collegamenti anziché da un indice lineare.

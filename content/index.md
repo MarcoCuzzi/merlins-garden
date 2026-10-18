@@ -1,5 +1,5 @@
 ---
-title: Benvenuto in "Merlin's garden"! il mio giardino digitale - Welcome to "Merlin's garden"! My digital garden
+title: Merlin's Garden - My Digital Garden
 ---
 
 > *"[...] Noi siamo infatti nati per darci aiuto reciproco, come i piedi, le mani, le palpebre, come le due file di denti. Ecco perché è cosa contro natura agire l'uno contro l'altro; e irritarsi contro qualcuno e detestarlo è proprio di persone tra loro nemiche." ~Marco Aurelio*
@@ -9,16 +9,16 @@ title: Benvenuto in "Merlin's garden"! il mio giardino digitale - Welcome to "Me
 Questo spazio è un **giardino digitale**: un archivio pubblico di appunti, modelli mentali e connessioni interdisciplinari in continua evoluzione. A differenza di un blog tradizionale, le note qui non sono ordinate per data, ma collegate tra loro per affinità concettuale. Molti testi sono bozze aperte, altri sono sintesi più strutturate.
 
 ---
-
+![[ascii-art/drawings/fiore2]]
 ## 🧭 Qui trovi un indice delle principali note e progetti
 
 Puoi iniziare a esplorare partendo da alcuni dei nodi principali: <span class="spinner"></span>
 
-- ![[ascii-art/drawings/fiore]]
+- [[Giardino]]
 
-- ![[ascii-art/drawings/fiore2]]
+- [[Patente nautica]]
 
-- [[giardino/Giardino]]
+- [[Modelli]]
 
 ---
 
