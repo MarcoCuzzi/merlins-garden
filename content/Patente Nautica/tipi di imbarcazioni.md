@@ -1,0 +1,1 @@
+Si definisce imbarcazione un qualsiasi galleggiante scoperto o parzialmente coperto che sia atto a trasportare cose o persone; esso è composto da **scafo**, **organo di direzione** (il timone) e **organo di propulsione** (consiste nel motore e nell'elica in una barca  a motore, mentre nelle vele in una barca a vela)

@@ -3,6 +3,7 @@
 
 [[tipi di motori]]
 [[tipi di imbarcazioni]]
+[[Nomenclatura imbarcazioni]]
 
 [[Carta Nautica]]
 [[Rotte]]
