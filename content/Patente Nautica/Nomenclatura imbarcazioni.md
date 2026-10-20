@@ -87,3 +87,71 @@ Si distinguono:
 
 
 
+# Vie D'Acqua
+Sono vie d'Acqua tutte le aperture sotto la linea di galleggiamento e sono:
+- Premistoppa: dell'asse portaelica per raffreddare il giunto elastico
+- Losca del timone: foro attraverso il quale passa l'asse del timone
+- Prese a mare: fori dal quale si pompa l'acqua di mare per raffreddare il motore. (passano per un passascafo)
+- Scarichi: fori di scarico del raffreddamento e dei fumi di combustione
+
+![](https://pub-b896382b01a148f6a027a39cf5269f7c.r2.dev/P-Nautica/parti-barca.webp)
+
+
+I flaps: Sono appendici immerse montate a poppa per influire sull'assetto della carena
+
+La **coperta** (o _tolda_) è il ponte superiore e orizzontale di un'imbarcazione, ossia la superficie calpestabile che chiude lo scalo verso l'alto e separa gli ambienti interni (_sottocoperta_) dall'ambiente esterno
+
+***Pozzetto***: si trova in poppa, nella zona aperta dell'imbarcazione dove viene posizionato il timone
+
+***Battagliola***: in genere la coperta ha una sorta di ringhiera di protezione che si chiama battagliola costituita da elementi verticali detti candelieri e da elementi orizzontali detti draglie.
+
+***Gli ombrinali*** sono aperture o condotti situati nel pozzetto o lungo la coperta di una barca che permettono il deflusso naturale dell'acqua (dovuta a pioggia, onde o lavaggi) verso l'esterno
+
+Il **pagliolato** (spesso chiamato anche _paiolato_) è il piano di calpestio o pavimento interno di un'imbarcazione o di un gommone mentre il pagliolo è la parte amovibile del pagliolato, dove posso controllare il locale sottostante chiamato ***sentina***.
+
+
+***Chiglia***: è la spina dorsale dello scheletro dell'imbarcazione
+sulla chiglia sono collocate le ordinate o costole (tra cui l'ordinata maestra situata nel punto di maggior larghezza dello scafo)
+baglio parte superiore trasversale che "chiude" le costole
+
+![](https://pub-b896382b01a148f6a027a39cf5269f7c.r2.dev/P-Nautica/chiglia.webp)
+
+Le ***paratie*** di una barca sono pareti verticali, trasversali o longitudinali, che dividono lo scafo in diversi settori e locali
+
+Il **ponte** di una nave è ciascuna delle strutture orizzontali (piani o pavimenti) che coprono lo scafo e lo dividono in più livelli: dove quello più elevato che si estende da prua a poppa, è detto ponte di coperta.
+
+il **boccaporto** o passauomo è l'apertura nel ponte di coperta che permette il passaggio di persone e cose all'interno.
+
+***immersione o pescaggio*** distanza verticale compresa tra la linea di galleggiamento e la parte inferiore della chiglia.
+
+
+Lo scafo ha alcune caratteristiche che determinano la sua attitudine alla navigazione; queste sono dette qualità nautiche e sono:
+- Stabilità
+- Dolcezza di oscillazione
+- Velocità
+- Manovrabilità
+
+Secondo la spinta di Archimede il galleggiamento è permesso se la forza peso è minore della  spinta del liquido, quest'ultima pari al peso del volume di liquido spostato.
+
+
+tre diverse forme di equilibrio:
+- Stabile: forze raddrizzanti > forze sbandanti
+- Instabile: forze raddrizzanti < forze sbandanti
+- Indifferente: forze raddrizzanti = forze sbandanti  . è quindi opportuno spostare il peso il più possibile in modo che agevoli le forze raddrizzanti abbassando il centro di gravità riducendo lo sbandamento.
+
+La nave si definisce dura se è più forte e quindi veloce a tornare in assetto.
+La nave si definisce cedevole quando torna in assetto più lentamente.
+
+
+Tipi di movimenti oscillatori:
+- Beccheggio: movimento sull'asse trasversale
+- Rollio: inclinazione a sinistra o a dritta
+- Imbardata/Alambardata: deviazione prua e poppa da un lato all'altro.
+
+
+Forme carena:
+- Carena dislocante: buona stabilità ma scarsa velocità
+- Carena planante: forma piatta, grandi velocita scarsa stabilità
+- Carena a V: Una via di mezzo
+
+
