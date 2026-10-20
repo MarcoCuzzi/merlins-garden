@@ -19,3 +19,6 @@
 [[Nodi]]
 
 [[Struttura esame]]
+
+
+![[Disclaimer]]
