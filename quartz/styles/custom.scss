@@ -95,3 +95,25 @@ body[data-slug="index"] .article-title {
     background-position: 0 0, 0 0, center 35%;
   }
 }
+@keyframes scrittura-dolce {
+  from { opacity: 0; transform: translateY(12px); filter: blur(4px); }
+  to   { opacity: 1; transform: translateY(0);    filter: blur(0); }
+}
+
+body[data-slug="index"] .markdown-preview-view > * {
+  animation: scrittura-dolce 1.4s cubic-bezier(0.22, 0.61, 0.36, 1) both;
+  animation-delay: 1.8s;   // blocchi oltre il dodicesimo
+}
+
+// un blocco dopo l'altro, come se si scrivesse riga dopo riga
+@for $i from 1 through 12 {
+  body[data-slug="index"] .markdown-preview-view > *:nth-child(#{$i}) {
+    animation-delay: #{$i * 0.15}s;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  body[data-slug="index"] .markdown-preview-view > * {
+    animation: none;
+  }
+}
