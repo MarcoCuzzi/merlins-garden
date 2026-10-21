@@ -117,3 +117,5 @@ body[data-slug="index"] .markdown-preview-view > * {
     animation: none;
   }
 }
+
+body[data-slug="index"] .markdown-preview-view > * { animation: none !important; }
